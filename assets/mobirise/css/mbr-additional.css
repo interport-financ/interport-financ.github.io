@@ -755,24 +755,47 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-u2gOZ4uWmo {
+@media (max-width: 1400px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .container-fluid {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.cid-unWGseOXgm {
   background-color: #ffffff;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.cid-u2gOZ4uWmo img {
+.cid-unWGseOXgm img {
   object-fit: contain;
   border-radius: 0 !important;
 }
-.cid-u2gOZMcEmh {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #edefeb;
+.cid-unWGsDTK4S {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #000000;
 }
-.cid-u2gOZMcEmh .mbr-fallback-image.disabled {
+.cid-unWGsDTK4S .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-u2gOZMcEmh .mbr-fallback-image {
+.cid-unWGsDTK4S .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -781,31 +804,31 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-u2gOZMcEmh .card-wrapper {
-  background: #ffffff;
+.cid-unWGsDTK4S .card-wrapper {
+  background: #000000;
 }
 @media (max-width: 767px) {
-  .cid-u2gOZMcEmh .card-wrapper {
+  .cid-unWGsDTK4S .card-wrapper {
     padding: 2rem 1.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .cid-u2gOZMcEmh .card-wrapper {
+  .cid-unWGsDTK4S .card-wrapper {
     padding: 2.25rem;
   }
 }
 @media (min-width: 992px) {
-  .cid-u2gOZMcEmh .card-wrapper {
+  .cid-unWGsDTK4S .card-wrapper {
     padding: 4rem;
   }
 }
-.cid-u2gOZMcEmh .mbr-text,
-.cid-u2gOZMcEmh .mbr-section-btn {
-  color: #000000;
+.cid-unWGsDTK4S .mbr-text,
+.cid-unWGsDTK4S .mbr-section-btn {
+  color: #ffffff;
   text-align: left;
 }
-.cid-u2gOZMcEmh .card-title,
-.cid-u2gOZMcEmh .card-box {
+.cid-unWGsDTK4S .card-title,
+.cid-unWGsDTK4S .card-box {
   text-align: left;
-  color: #000000;
+  color: #ffffff;
 }
